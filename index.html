@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urheilukenttähaku</title>
+    <link rel="stylesheet" href="stule.css">
+</head>
+<body>
+    <header>
+        <h1>Löydä Vapaat Urheilukentät</h1>
+        <p>Katso lähialueesi vapaat urheilukentät ja niiden tiedot</p>
+    </header>
+
+    <main>
+        <section id="field-search">
+            <p>Valitse urheilukenttä nähdäksesi lisätietoja:</p>
+            <button onclick="showDetails('Jalkapallokenttä')">Jalkapallokenttä</button>
+            <button onclick="showDetails('Koripallokenttä')">Koripallokenttä</button>
+            <button onclick="showDetails('Tenniskenttä')">Tenniskenttä</button>
+        </section>
+
+        <section id="field-details">
+            <h2>Kentän tiedot</h2>
+            <p id="details">Valitse kenttä nähdäksesi tiedot.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Urheilukenttähaku © 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<link rel="stylesheet" href="stule.css">
